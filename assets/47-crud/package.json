@@ -1,0 +1,14 @@
+{
+  "name": "express-pizzeria",
+  "version": "0.0.1",
+  "description": "Una fantastica pizzeria",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
