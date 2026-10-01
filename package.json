@@ -2,13 +2,11 @@
   "name": "express-blog-api-crud",
   "version": "1.0.0",
   "description": "A simple CRUD API for a blog using Express.js",
-  "license": "ISC",
-  "author": "",
   "type": "module",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "dependencies": {
     "express": "^5.2.1"
